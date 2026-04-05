@@ -18,12 +18,12 @@ export default function Contact() {
     <div className="max-w-[1920px] mx-auto px-6 md:px-12">
 
 
-<section className="mb-20 pt-12">
-<div className="max-w-4xl">
+<section className="mb-16 md:mb-20 pt-8 md:pt-12 text-center md:text-left">
+<div className="max-w-4xl mx-auto md:mx-0">
 <h1 className="font-headline text-5xl md:text-7xl font-extrabold tracking-tighter text-white mb-6 uppercase">
                     Let's Connect
                 </h1>
-<div className="w-24 h-1 bg-primary-container mb-8"></div>
+<div className="w-24 h-1 bg-primary-container mb-8 mx-auto md:mx-0"></div>
 <p className="font-body text-xl text-on-secondary-container max-w-2xl leading-relaxed">
                     For professional collaborations, speaking engagements, or mentorship inquiries, feel free to connect.
                 </p>
@@ -64,42 +64,42 @@ export default function Contact() {
 
 <div className="lg:col-span-5 space-y-12">
 
-<div className="bg-secondary-container p-10 border-l-4 border-primary-container">
-<h3 className="font-headline text-2xl font-bold text-white mb-8 uppercase tracking-tight">Direct Connection</h3>
-<div className="space-y-8">
-<div className="flex items-start gap-6">
-<div className="bg-surface-container-high p-3">
+<div className="bg-secondary-container p-6 md:p-10 border-l-4 border-primary-container">
+<h3 className="font-headline text-2xl font-bold text-white mb-8 text-center md:text-left uppercase tracking-tight">Direct Connection</h3>
+<div className="space-y-10 md:space-y-8">
+<div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-6">
+<div className="bg-surface-container-high p-3 rounded-full md:rounded-none flex-shrink-0">
 <span className="material-symbols-outlined text-primary-container">alternate_email</span>
 </div>
-<div>
+<div className="w-full">
 <p className="font-label text-[0.65rem] text-on-secondary-container tracking-widest uppercase mb-1">Electronic Mail</p>
-<a className="text-white font-headline font-bold text-lg hover:text-primary transition-colors" href="mailto:tarundgg@yahoo.com">tarundgg@yahoo.com</a>
+<a className="text-white font-headline font-bold text-base md:text-lg hover:text-primary transition-colors break-all md:break-normal w-full block" href="mailto:tarundgg@yahoo.com">tarundgg@yahoo.com</a>
 </div>
 </div>
-<div className="flex items-start gap-6">
-<div className="bg-surface-container-high p-3">
+<div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-6">
+<div className="bg-surface-container-high p-3 rounded-full md:rounded-none flex-shrink-0">
 <span className="material-symbols-outlined text-primary-container">call</span>
 </div>
-<div>
+<div className="w-full">
 <p className="font-label text-[0.65rem] text-on-secondary-container tracking-widest uppercase mb-1">Secure Line</p>
-<a className="text-white font-headline font-bold text-lg hover:text-primary transition-colors" href="tel:+919437064996">+91 9437064996</a>
+<a className="text-white font-headline font-bold text-base md:text-lg hover:text-primary transition-colors break-all md:break-normal w-full block" href="tel:+919437064996">+91 9437064996</a>
 </div>
 </div>
-<div className="flex items-start gap-6">
-<div className="bg-surface-container-high p-3">
+<div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-6">
+<div className="bg-surface-container-high p-3 rounded-full md:rounded-none flex-shrink-0">
 <span className="material-symbols-outlined text-primary-container">share</span>
 </div>
-<div>
+<div className="w-full">
 <p className="font-label text-[0.65rem] text-on-secondary-container tracking-widest uppercase mb-1">Professional Network</p>
-<a className="text-white font-headline font-bold text-lg hover:text-primary transition-colors" href="https://www.linkedin.com/in/tarundgg/" target="_blank">linkedin.com/in/tarundgg/</a>
+<a className="text-white font-headline font-bold text-base md:text-lg hover:text-primary transition-colors break-all md:break-normal w-full block" href="https://www.linkedin.com/in/tarundgg/" target="_blank">linkedin.com/in/tarundgg/</a>
 </div>
 </div>
 </div>
 </div>
 
 <div>
-<h4 className="font-label text-[0.7rem] text-on-surface-variant tracking-[0.3em] uppercase mb-6">Social Network Feed</h4>
-<div className="grid grid-cols-2 gap-4">
+<h4 className="font-label text-[0.7rem] text-on-surface-variant tracking-[0.3em] uppercase mb-6 text-center md:text-left">Social Network Feed</h4>
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 <a className="flex items-center justify-between p-4 bg-surface-container-high hover:bg-surface-bright transition-colors group" href="#">
 <span className="text-xs font-bold uppercase tracking-widest text-on-surface">Twitter</span>
 <span className="material-symbols-outlined text-sm text-primary-container group-hover:translate-x-1 transition-transform">north_east</span>

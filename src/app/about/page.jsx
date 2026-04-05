@@ -5,13 +5,13 @@ export default function About() {
     <>
 
 
-      <section className="max-w-[1920px] mx-auto px-12 mb-32">
+      <section className="max-w-[1920px] mx-auto px-6 md:px-12 mb-16 md:mb-32">
         <div className="editorial-grid">
           <div className="col-span-12 md:col-span-7 relative">
-            <img alt="Portrait" className="w-full grayscale contrast-125 brightness-75 object-cover h-[700px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG0xd1tpPdAaOn65-pStRlRSvE0BGCXQDvPj_hPoZ0MyLFFbVPaIzf48ZALF2BODvf9T2fIPIACtCV4hD_4RRN2SmANSXWSGLkPxVlDvN3PEX214fFR05lu70A8DOwokm_4-Jy44FJZI0SBoUys5RiqC2L94YEgcmOIm20KD5SkoQKXy3EwmD6yfAwulgCplF-9lUm7Yt1ISn-laM1V0EYhF1NivwUC2EvubxyqTtnqsGI5r6tmGz2flCodx-iKIAeRBLr0MZ-mfj3" />
+            <img alt="Portrait" className="w-full grayscale contrast-125 brightness-75 object-cover h-[400px] md:h-[700px]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDG0xd1tpPdAaOn65-pStRlRSvE0BGCXQDvPj_hPoZ0MyLFFbVPaIzf48ZALF2BODvf9T2fIPIACtCV4hD_4RRN2SmANSXWSGLkPxVlDvN3PEX214fFR05lu70A8DOwokm_4-Jy44FJZI0SBoUys5RiqC2L94YEgcmOIm20KD5SkoQKXy3EwmD6yfAwulgCplF-9lUm7Yt1ISn-laM1V0EYhF1NivwUC2EvubxyqTtnqsGI5r6tmGz2flCodx-iKIAeRBLr0MZ-mfj3" />
 
           </div>
-          <div className="col-span-12 md:col-span-5 flex flex-col justify-end pb-12">
+          <div className="col-span-12 md:col-span-5 flex flex-col justify-end pb-12 text-center md:text-left">
             <div className="mb-8">
 
               <span className="text-[#FCA311] uppercase tracking-widest font-extrabold text-xl mb-1 block">Tarun Kumar Banjaree</span>
@@ -20,14 +20,14 @@ export default function About() {
                 I am a seasoned leader with over 27 years of experience in the Indo-Tibetan Border Police (ITBP) and Indian Navy, having served in diverse and high-pressure environments across the country and abroad. Throughout my career, I have held key leadership positions, managing operations, administration, and strategic planning for large units. My experience spans internal security, border management, disaster response, and intelligence operations.
               </p>
             </div>
-            <div className="w-24 h-1 bg-primary-container"></div>
+            <div className="w-24 h-1 bg-primary-container mx-auto md:mx-0"></div>
           </div>-
         </div>
       </section>
 
-      <section className="bg-surface-container-low py-32 mb-32">
-        <div className="max-w-[1920px] mx-auto px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+      <section className="bg-surface-container-low py-16 md:py-32 mb-16 md:mb-32">
+        <div className="max-w-[1920px] mx-auto px-6 md:px-12">
+          <div className="grid grid-cols-1 grid-rows-1 lg:grid-cols-2 gap-16 md:gap-24">
 
             <div>
               <div className="flex items-center gap-4 mb-12">
@@ -90,18 +90,18 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-[1920px] mx-auto px-12 mb-32">
-        <div className="flex items-center justify-center gap-4 mb-12">
-          <h2 className="text-2xl uppercase tracking-[0.2em] text-primary-container  block font-extrabold">Notable Contributions</h2>
+      <section className="max-w-[1920px] mx-auto px-6 md:px-12 mb-32">
+        <div className="flex items-center justify-center gap-4 mb-12 text-center">
+          <h2 className="text-2xl uppercase tracking-[0.2em] text-primary-container block font-extrabold">Notable Contributions</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4 h-auto md:h-[600px]">
-          <div className="md:col-span-2 md:row-span-2 bg-secondary-container relative overflow-hidden group p-12 flex flex-col justify-between border-b-4 border-primary-container">
+        <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4 h-auto md:h-[600px] auto-rows-auto md:auto-rows-fr">
+          <div className="md:col-span-2 md:row-span-2 bg-secondary-container relative overflow-hidden group p-8 md:p-12 flex flex-col justify-between border-b-4 border-primary-container min-h-[400px] md:min-h-0">
             <div className="absolute top-0 right-0 p-8 opacity-10">
-              <span className="material-symbols-outlined text-[12rem]">water_drop</span>
+              <span className="material-symbols-outlined text-[8rem] md:text-[12rem]">water_drop</span>
             </div>
-            <div>
-              <h3 className="text-5xl font-headline font-black text-white uppercase mb-6 leading-none">Clean Ganga<br />Expedition (2015)</h3>
-              <p className="text-on-secondary-container max-w-md text-lg leading-relaxed">Played a key leadership role in the landmark Clean Ganga Expedition, combining environmental stewardship with logistics and team endurance.</p>
+            <div className="relative z-10">
+              <h3 className="text-4xl md:text-5xl font-headline font-black text-white uppercase mb-6 leading-none pt-12 md:pt-0">Clean Ganga<br />Expedition (2015)</h3>
+              <p className="text-on-secondary-container max-w-md text-base md:text-lg leading-relaxed">Played a key leadership role in the landmark Clean Ganga Expedition, combining environmental stewardship with logistics and team endurance.</p>
             </div>
             <div className="bg-surface/40 backdrop-blur p-6 inline-block">
               <p className="text-primary-container font-bold uppercase tracking-widest text-xs mb-2">Operational Milestone</p>
@@ -121,10 +121,10 @@ export default function About() {
         </div>
       </section>
 
-      <section className="max-w-[1920px] mx-auto px-12 py-32 mb-32 relative overflow-hidden bg-surface-container-high">
+      <section className="max-w-[1920px] mx-auto px-6 md:px-12 py-16 md:py-32 mb-16 md:mb-32 relative overflow-hidden bg-surface-container-high">
         <div className="relative z-10 text-center max-w-5xl mx-auto">
-          <span className="text-2xl uppercase tracking-[0.2em] text-primary-container mb-12 block font-extrabold">Awards &amp; Recognition</span>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <span className="text-xl md:text-2xl uppercase tracking-[0.2em] text-primary-container mb-8 md:mb-12 block font-extrabold">Awards &amp; Recognition</span>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 text-left md:text-center">
             <div className="bg-surface p-8 border-t-2 border-primary-container">
               <span className="material-symbols-outlined text-4xl text-primary-container mb-4 block">public</span>
               <h5 className="text-lg font-headline font-black text-white uppercase mb-2">World Record</h5>

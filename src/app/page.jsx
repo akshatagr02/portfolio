@@ -11,7 +11,7 @@ export default function Home() {
           <div className="col-span-12 md:col-span-7 pb-20">
             <div className="label-md text-primary-container uppercase tracking-[0.2em] text-2xl mb-6 font-semibold">Tarun Kumar Banjaree</div>
             <h1 className="text-[clamp(1.5rem,10vw,5.5rem)] font-headline font-black leading-[0.9] tracking-tighter text-white uppercase mb-12">
-              Commandant <br /> <span className="text-primary-container">ITBP (Retd)</span>
+              Commandant <br /> <span className="text-primary-container ">ITBP (Retd)</span>
             </h1>
             <div className="label-md text-on-surface-variant uppercase tracking-[0.15em] mb-8 font-medium">Strategic Leader | National Security Expert | Mentor</div>
             <div className="max-w-xl text-lg text-on-surface-variant font-light leading-relaxed">
